@@ -38,5 +38,9 @@ class ViewController: UIViewController {
         generarImagen()
     }
     
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        generarImagen()
+    }
+    
 }//Fin de clase
 
